@@ -1,0 +1,4 @@
+﻿
+namespace FaregosoftFR.Skia.Gtk
+{
+}
