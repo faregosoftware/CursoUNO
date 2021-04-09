@@ -8,7 +8,7 @@
       you need to make sure that the version provided here matches https://github.com/novotnyllc/MSBuildSdkExtras/blob/main/Source/MSBuild.Sdk.Extras/DefaultItems/ImplicitPackages.targets#L11.
       This is not an issue when libraries are referenced through nuget packages. See https://github.com/unoplatform/uno/issues/446 for more details.
       -->
-      <Version>6.2.11</Version>
+      <Version>6.2.12</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.UI.Xaml" Version="2.5.0" />
     <PackageReference Include="Uno.Core" Version="2.3.0" />
@@ -19,7 +19,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>994b6fde-87c2-443e-9e80-2592dd85b636</ProjectGuid>
+    <ProjectGuid>{994B6FDE-87C2-443E-9E80-2592DD85B636}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Faregosoft</RootNamespace>

@@ -39,17 +39,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.iOS", "Faregos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.UWP", "FaregosoftFR\FaregosoftFR.UWP\FaregosoftFR.UWP.csproj", "{4B140F19-B6F5-4B3A-AFC1-5309A308025F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.Wasm", "FaregosoftFR\FaregosoftFR.Wasm\FaregosoftFR.Wasm.csproj", "{245ED6B9-68D4-4803-81D8-EC1572CCD527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftFR.Wasm", "FaregosoftFR\FaregosoftFR.Wasm\FaregosoftFR.Wasm.csproj", "{245ED6B9-68D4-4803-81D8-EC1572CCD527}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.macOS", "FaregosoftFR\FaregosoftFR.macOS\FaregosoftFR.macOS.csproj", "{B07740A1-B622-42E0-A381-A61FDB88695A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.Skia.Wpf.Host", "FaregosoftFR\FaregosoftFR.Skia.Wpf.Host\FaregosoftFR.Skia.Wpf.Host.csproj", "{392EE997-A153-44E5-A466-876982A2397D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftFR.Skia.Wpf.Host", "FaregosoftFR\FaregosoftFR.Skia.Wpf.Host\FaregosoftFR.Skia.Wpf.Host.csproj", "{392EE997-A153-44E5-A466-876982A2397D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.Skia.Wpf", "FaregosoftFR\FaregosoftFR.Skia.Wpf\FaregosoftFR.Skia.Wpf.csproj", "{48986903-B51C-4E7F-8F9E-1CE1D8BECE0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftFR.Skia.Wpf", "FaregosoftFR\FaregosoftFR.Skia.Wpf\FaregosoftFR.Skia.Wpf.csproj", "{48986903-B51C-4E7F-8F9E-1CE1D8BECE0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.Skia.Gtk", "FaregosoftFR\FaregosoftFR.Skia.Gtk\FaregosoftFR.Skia.Gtk.csproj", "{6197A6C3-376B-4D3E-A76F-52614113C63D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftFR.Skia.Gtk", "FaregosoftFR\FaregosoftFR.Skia.Gtk\FaregosoftFR.Skia.Gtk.csproj", "{6197A6C3-376B-4D3E-A76F-52614113C63D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftFR.Skia.Tizen", "FaregosoftFR\FaregosoftFR.Skia.Tizen\FaregosoftFR.Skia.Tizen.csproj", "{988D611C-AF3E-4743-84FF-2D17B61B65DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftFR.Skia.Tizen", "FaregosoftFR\FaregosoftFR.Skia.Tizen\FaregosoftFR.Skia.Tizen.csproj", "{988D611C-AF3E-4743-84FF-2D17B61B65DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FaregoSoftJR", "FaregoSoftJR", "{63FFD718-4CFC-453C-9186-1532D6B7E50E}"
 EndProject
@@ -63,17 +63,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.iOS", "Faregos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.UWP", "FaregosoftJR\FaregosoftJR.UWP\FaregosoftJR.UWP.csproj", "{0E70A56B-CB24-4371-BF73-2A845CF4011C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.Wasm", "FaregosoftJR\FaregosoftJR.Wasm\FaregosoftJR.Wasm.csproj", "{4FB104DA-990C-4915-B131-C43D953AE972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Wasm", "FaregosoftJR\FaregosoftJR.Wasm\FaregosoftJR.Wasm.csproj", "{4FB104DA-990C-4915-B131-C43D953AE972}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.macOS", "FaregosoftJR\FaregosoftJR.macOS\FaregosoftJR.macOS.csproj", "{883C781D-3EBF-437E-AF30-C754CB05AEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.Skia.Wpf.Host", "FaregosoftJR\FaregosoftJR.Skia.Wpf.Host\FaregosoftJR.Skia.Wpf.Host.csproj", "{DABB5134-7A48-4BC8-A8E1-E73484C460DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Skia.Wpf.Host", "FaregosoftJR\FaregosoftJR.Skia.Wpf.Host\FaregosoftJR.Skia.Wpf.Host.csproj", "{DABB5134-7A48-4BC8-A8E1-E73484C460DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.Skia.Wpf", "FaregosoftJR\FaregosoftJR.Skia.Wpf\FaregosoftJR.Skia.Wpf.csproj", "{4842B797-3921-4EF6-B911-A74DEACB2246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Skia.Wpf", "FaregosoftJR\FaregosoftJR.Skia.Wpf\FaregosoftJR.Skia.Wpf.csproj", "{4842B797-3921-4EF6-B911-A74DEACB2246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.Skia.Gtk", "FaregosoftJR\FaregosoftJR.Skia.Gtk\FaregosoftJR.Skia.Gtk.csproj", "{05ABC035-6F6A-480F-9BE1-F89FC0E13819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Skia.Gtk", "FaregosoftJR\FaregosoftJR.Skia.Gtk\FaregosoftJR.Skia.Gtk.csproj", "{05ABC035-6F6A-480F-9BE1-F89FC0E13819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaregosoftJR.Skia.Tizen", "FaregosoftJR\FaregosoftJR.Skia.Tizen\FaregosoftJR.Skia.Tizen.csproj", "{5894A6B3-5D12-40AA-81FB-0F506A403CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Skia.Tizen", "FaregosoftJR\FaregosoftJR.Skia.Tizen\FaregosoftJR.Skia.Tizen.csproj", "{5894A6B3-5D12-40AA-81FB-0F506A403CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faregosoft.Api", "Faregosoft.Api\Faregosoft.Api.csproj", "{0CBDECD6-B41D-44FB-8919-BEB142950775}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -1690,6 +1692,62 @@ Global
 		{5894A6B3-5D12-40AA-81FB-0F506A403CCC}.Release|x64.Build.0 = Release|Any CPU
 		{5894A6B3-5D12-40AA-81FB-0F506A403CCC}.Release|x86.ActiveCfg = Release|Any CPU
 		{5894A6B3-5D12-40AA-81FB-0F506A403CCC}.Release|x86.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|ARM64.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|ARM64.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|ARM64.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|ARM64.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|x64.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.AppStore|x86.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|ARM.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|x64.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Debug|x86.Build.0 = Debug|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|ARM.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|ARM64.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|iPhone.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|x64.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|x64.Build.0 = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|x86.ActiveCfg = Release|Any CPU
+		{0CBDECD6-B41D-44FB-8919-BEB142950775}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1728,6 +1786,7 @@ Global
 		{4842B797-3921-4EF6-B911-A74DEACB2246} = {B132725C-30A0-48FB-837B-60C848FC3CC9}
 		{05ABC035-6F6A-480F-9BE1-F89FC0E13819} = {B132725C-30A0-48FB-837B-60C848FC3CC9}
 		{5894A6B3-5D12-40AA-81FB-0F506A403CCC} = {B132725C-30A0-48FB-837B-60C848FC3CC9}
+		{0CBDECD6-B41D-44FB-8919-BEB142950775} = {63FFD718-4CFC-453C-9186-1532D6B7E50E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6E8EF08-A292-4A17-A611-363A88DDCA2D}
