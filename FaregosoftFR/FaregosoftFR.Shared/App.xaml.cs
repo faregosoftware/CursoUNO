@@ -30,7 +30,7 @@ namespace FaregosoftFR
         public App()
         {
             InitializeLogging();
-           
+
             this.InitializeComponent();
 
 #if HAS_UNO || NETFX_CORE
