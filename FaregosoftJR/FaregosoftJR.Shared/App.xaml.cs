@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using FaregosoftJR.Pages;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -88,7 +89,7 @@ namespace FaregosoftJR
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(LoginPage), e.Arguments);
                 }
                 // Ensure the current window is active
                 window.Activate();
