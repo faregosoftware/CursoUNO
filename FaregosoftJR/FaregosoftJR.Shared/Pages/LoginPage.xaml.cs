@@ -1,4 +1,5 @@
-﻿using Faregosoft.Helpers;
+﻿using FaregosoftJR.Helpers;
+using FaregosoftJR.Models;
 using System;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
@@ -18,7 +19,7 @@ namespace FaregosoftJR.Pages
             this.InitializeComponent();
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
+        private async void LoginButtonButton_Click(object sender, RoutedEventArgs e)
         {
             MessageDialog messageDialog;
             if (string.IsNullOrEmpty(EmailTbx.Text))
@@ -42,9 +43,32 @@ namespace FaregosoftJR.Pages
                 return;
             }
 
-            messageDialog = new MessageDialog("Vamos bien!", "OK");
+            Response response = await ApiService.LoginAsync(
+               "https://localhost:44357",
+               "api",
+               "Users",
+               EmailTbx.Text,
+               PasswordPbx.Password);
+
+            if (!response.IsSuccess)
+            {
+                messageDialog = new MessageDialog(response.Message, "Error");
+                await messageDialog.ShowAsync();
+                return;
+            }
+            User user = (User)response.Result;
+
+            messageDialog = new MessageDialog($"Bienvenido: {user.FirstName} {user.LastName}", "OK");
             await messageDialog.ShowAsync();
 
+        }
+        private  void RegisterButtonButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = Windows.UI.Xaml.Window.Current;
+            Frame rootFrame = window.Content as Frame;
+            window.Content = rootFrame;
+            rootFrame.Navigate(typeof(RegisterPage));
+            
         }
     }
 }

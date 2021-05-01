@@ -24,7 +24,8 @@
             <TextBox x:Name="EmailTbx" PlaceholderText="Ingresa tu email..." Margin="5" InputScope="EmailSmtpAddress" Width="200" BorderBrush="DimGray" />
             <TextBlock Text="Contraseña" Margin="5" Width="200"/>
             <PasswordBox x:Name="PasswordPbx" PlaceholderText="Ingresa tu contraseña..." Margin="5"  Width="200" BorderBrush="DimGray"/>
-            <Button Click="Button_Click" Content="Login" HorizontalAlignment="Stretch" Margin="5,15" Background="Firebrick" Foreground="White" FontSize="15" Width="100"/>
+            <Button x:Name="LoginButton" Click="LoginButtonButton_Click" Content="Login" HorizontalAlignment="Stretch" Margin="5,15" Background="Firebrick" Foreground="White" FontSize="15" Width="100"/>
+            <Button x:Name="RegisterButton" Click="RegisterButtonButton_Click" Content="Registrarme" HorizontalAlignment="Stretch" Margin="5,15" Background="silver" Foreground="black" FontSize="15" Width="150" FontWeight="Bold"/>
         </StackPanel>
     </Grid>
 </Page>

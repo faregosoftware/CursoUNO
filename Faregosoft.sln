@@ -75,7 +75,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Skia.Gtk", "Fa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Skia.Tizen", "FaregosoftJR\FaregosoftJR.Skia.Tizen\FaregosoftJR.Skia.Tizen.csproj", "{5894A6B3-5D12-40AA-81FB-0F506A403CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faregosoft.Api", "Faregosoft.Api\Faregosoft.Api.csproj", "{0CBDECD6-B41D-44FB-8919-BEB142950775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaregosoftJR.Api", "Faregosoft.Api\FaregosoftJR.Api.csproj", "{0CBDECD6-B41D-44FB-8919-BEB142950775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4DB5374D-7CB9-497B-A64D-C6BA04F6741D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
